@@ -1,13 +1,16 @@
-//Addition , Subtraction,Multiplication,Division,Modulo of Two Numbers
-
-let a=3,b=4,sum,sub,mul,div,mod;
-sum=a+b;
-sub=a-b;
-mul=a*b;
-div=a/b;
-mod=a%b;
-console.log("The Sum is :",sum);
-console.log("The Subtraction is :",sub);
-console.log("The Multiplication is :",mul);
-console.log("The Division is :",div);
-console.log("The Modulo is :",mod);
+<!--Addition , Subtraction,Multiplication,Division,Modulo of Two Numbers-->
+<script>
+  let sum, sub, mul, div, mod;
+  var a = parseInt(prompt("Enter a"));
+  var b = parseInt(prompt("Enter b"));
+  sum = a + b;
+  sub = a - b;
+  mul = a * b;
+  div = a / b;
+  mod = a % b;
+  document.write("<br>The Sum is :", sum);
+  document.write("<br>The Subtraction is :", sub);
+  document.write("<br>The Multiplication is :", mul);
+  document.write("<br>The Division is :", div);
+  document.write("<br>The Modulo is :", mod);
+</script>
